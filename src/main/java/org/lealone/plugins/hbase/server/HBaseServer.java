@@ -9,9 +9,9 @@ import java.util.Map;
 
 import org.lealone.common.logging.Logger;
 import org.lealone.common.logging.LoggerFactory;
+import org.lealone.db.scheduler.Scheduler;
 import org.lealone.net.WritableChannel;
 import org.lealone.server.AsyncServer;
-import org.lealone.server.Scheduler;
 
 public class HBaseServer extends AsyncServer<HBaseServerConnection> {
 
