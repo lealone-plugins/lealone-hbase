@@ -10,7 +10,7 @@ import org.lealone.db.session.ServerSession;
 import org.lealone.net.NetBuffer;
 import org.lealone.net.WritableChannel;
 import org.lealone.server.AsyncServerConnection;
-import org.lealone.server.SessionInfo;
+import org.lealone.server.scheduler.SessionInfo;
 
 public class HBaseServerConnection extends AsyncServerConnection {
 
