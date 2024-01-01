@@ -3,14 +3,14 @@
  * Licensed under the Server Side Public License, v 1.
  * Initial Developer: zhh
  */
-package org.lealone.plugins.hbase.server;
+package com.lealone.plugins.hbase.server;
 
-import org.lealone.db.scheduler.Scheduler;
-import org.lealone.db.session.ServerSession;
-import org.lealone.net.NetBuffer;
-import org.lealone.net.WritableChannel;
-import org.lealone.server.AsyncServerConnection;
-import org.lealone.server.scheduler.SessionInfo;
+import com.lealone.db.scheduler.Scheduler;
+import com.lealone.db.session.ServerSession;
+import com.lealone.net.NetBuffer;
+import com.lealone.net.WritableChannel;
+import com.lealone.server.AsyncServerConnection;
+import com.lealone.server.scheduler.SessionInfo;
 
 public class HBaseServerConnection extends AsyncServerConnection {
 

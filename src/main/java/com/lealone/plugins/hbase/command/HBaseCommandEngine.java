@@ -3,11 +3,12 @@
  * Licensed under the Server Side Public License, v 1.
  * Initial Developer: zhh
  */
-package org.lealone.plugins.hbase.command;
+package com.lealone.plugins.hbase.command;
 
-import org.lealone.db.session.ServerSession;
-import org.lealone.plugins.hbase.server.HBaseServerEngine;
-import org.lealone.sql.SQLEngineBase;
+import com.lealone.db.session.ServerSession;
+import com.lealone.sql.SQLEngineBase;
+
+import com.lealone.plugins.hbase.server.HBaseServerEngine;
 
 public class HBaseCommandEngine extends SQLEngineBase {
 

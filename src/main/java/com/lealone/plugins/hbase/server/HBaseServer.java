@@ -3,15 +3,15 @@
  * Licensed under the Server Side Public License, v 1.
  * Initial Developer: zhh
  */
-package org.lealone.plugins.hbase.server;
+package com.lealone.plugins.hbase.server;
 
 import java.util.Map;
 
-import org.lealone.common.logging.Logger;
-import org.lealone.common.logging.LoggerFactory;
-import org.lealone.db.scheduler.Scheduler;
-import org.lealone.net.WritableChannel;
-import org.lealone.server.AsyncServer;
+import com.lealone.common.logging.Logger;
+import com.lealone.common.logging.LoggerFactory;
+import com.lealone.db.scheduler.Scheduler;
+import com.lealone.net.WritableChannel;
+import com.lealone.server.AsyncServer;
 
 public class HBaseServer extends AsyncServer<HBaseServerConnection> {
 
