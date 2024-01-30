@@ -21,7 +21,7 @@ public class HBaseServerConnection extends AsyncServerConnection {
 
     protected HBaseServerConnection(HBaseServer server, WritableChannel writableChannel,
             Scheduler scheduler) {
-        super(writableChannel, true);
+        super(writableChannel);
         this.server = server;
         this.scheduler = scheduler;
     }
